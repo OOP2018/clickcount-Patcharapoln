@@ -1,9 +1,12 @@
 package counter;
+
+import java.util.Observable;
+
 /**
  * A simple counter.
  */
 
-public class Counter  {
+public class Counter extends Observable{
 	private int count;
 	
 	public Counter() {
